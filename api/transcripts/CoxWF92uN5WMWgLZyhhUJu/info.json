@@ -1,0 +1,41 @@
+{
+  "transcript_id": "CoxWF92uN5WMWgLZyhhUJu",
+  "source_type": "eval_log",
+  "source_id": "Hm9C5PMT94SFeozN9eqfsd",
+  "source_uri": "/Users/brandly/code/inspect_scout/logs/2026-05-04T19-20-59-00-00_task_9ybxnJHpVShBs9W2jtE2hb.eval",
+  "date": "2026-05-04 19:20:59+00:00",
+  "task_set": "task",
+  "task_id": "1",
+  "task_repeat": 1,
+  "agent": "generate",
+  "agent_args": {
+    "tool_calls": "loop",
+    "kwargs": {}
+  },
+  "model": "mockllm/model",
+  "model_options": {},
+  "score": null,
+  "success": null,
+  "message_count": 2,
+  "total_time": 0.016,
+  "total_tokens": 34,
+  "error": "RuntimeError('Result sets used as scores must have labels for all items.')",
+  "limit": "",
+  "metadata": {
+    "sample_id": "CoxWF92uN5WMWgLZyhhUJu",
+    "eval_id": "Hm9C5PMT94SFeozN9eqfsd",
+    "log": "/Users/brandly/code/inspect_scout/logs/2026-05-04T19-20-59-00-00_task_9ybxnJHpVShBs9W2jtE2hb.eval",
+    "eval_status": "error",
+    "eval_tags": "",
+    "eval_metadata": "{}",
+    "task_args": "{}",
+    "generate_config": "{}",
+    "model_roles": "{}",
+    "id": "1",
+    "epoch": 1,
+    "input": "user:\nprompt\n",
+    "target": "",
+    "sample_metadata": "{}",
+    "working_time": 0.015
+  }
+}

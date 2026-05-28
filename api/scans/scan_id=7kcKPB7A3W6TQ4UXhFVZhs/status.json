@@ -1,0 +1,98 @@
+{
+  "complete": true,
+  "spec": {
+    "scan_id": "7kcKPB7A3W6TQ4UXhFVZhs",
+    "scan_name": "job",
+    "scan_file": "examples/scanner/scanner.py",
+    "scan_args": {},
+    "timestamp": "2026-03-30T11:47:57.542990-04:00",
+    "model": {
+      "model": "anthropic/claude-haiku-4-5-20251001",
+      "config": {
+        "max_connections": 25
+      },
+      "args": {}
+    },
+    "revision": {
+      "type": "git",
+      "origin": "git@github.com:meridianlabs-ai/inspect_scout.git",
+      "version": "0.4.24-dev.8+gb6a24b61",
+      "commit": "b6a24b61"
+    },
+    "packages": {
+      "inspect_ai": "0.3.201.dev26+gb89a37deb",
+      "inspect_scout": "0.4.22"
+    },
+    "options": {
+      "max_transcripts": 25,
+      "limit": 1
+    },
+    "transcripts": {
+      "type": "eval_log",
+      "filter": [],
+      "transcript_ids": {
+        "MUBxLNC9YwakjPFXaFuEZ4": "/Users/brandly/code/inspect_scout/examples/scanner/logs/2025-09-23T08-09-58-04-00_popularity_DN2wbX2ZvACsBpjwptzBRo.eval"
+      },
+      "count": 0
+    },
+    "scanners": {
+      "reward_hacking": {
+        "name": "reward_hacking",
+        "version": 0,
+        "file": "examples/scanner/scanner.py",
+        "params": {}
+      },
+      "efficiency": {
+        "name": "efficiency",
+        "version": 0,
+        "file": "examples/scanner/scanner.py",
+        "params": {}
+      }
+    }
+  },
+  "location": "/Users/brandly/code/inspect_scout/scans/scan_id=7kcKPB7A3W6TQ4UXhFVZhs",
+  "summary": {
+    "complete": true,
+    "scanners": {
+      "reward_hacking": {
+        "scans": 1,
+        "results": 0,
+        "errors": 0,
+        "tokens": 477,
+        "model_usage": {
+          "anthropic/claude-haiku-4-5-20251001": {
+            "input_tokens": 226,
+            "output_tokens": 251,
+            "total_tokens": 477,
+            "input_tokens_cache_write": 0,
+            "input_tokens_cache_read": 0,
+            "reasoning_tokens": 0
+          }
+        }
+      },
+      "efficiency": {
+        "scans": 1,
+        "results": 1,
+        "errors": 0,
+        "metrics": {
+          "efficiency": {
+            "mean": 9.0
+          }
+        },
+        "tokens": 467,
+        "model_usage": {
+          "anthropic/claude-haiku-4-5-20251001": {
+            "input_tokens": 206,
+            "output_tokens": 261,
+            "total_tokens": 467,
+            "input_tokens_cache_write": 0,
+            "input_tokens_cache_read": 0,
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    }
+  },
+  "errors": [],
+  "scanners": null
+}

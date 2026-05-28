@@ -1,0 +1,25 @@
+{
+  "config": {
+    "name": null,
+    "transcripts": "./logs",
+    "filter": [],
+    "scanners": null,
+    "worklist": null,
+    "validation": null,
+    "scans": "./scans",
+    "model": null,
+    "model_base_url": null,
+    "model_args": null,
+    "generate_config": null,
+    "model_roles": null,
+    "max_transcripts": null,
+    "max_processes": null,
+    "limit": null,
+    "shuffle": null,
+    "tags": null,
+    "metadata": null,
+    "log_level": null,
+    "results": null
+  },
+  "etag": "e9a559e9d6215dab1c01118438aa29324b3ac3d27a538fa143f416e983c25388"
+}

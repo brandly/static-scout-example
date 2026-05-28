@@ -1,0 +1,45 @@
+[
+  {
+    "id": "0198e1fe-df9a-7af3-9ede-1a5469ba02f9",
+    "split": "train",
+    "labels": {
+      "safety": true,
+      "accuracy": true,
+      "toxicity": false
+    }
+  },
+  {
+    "id": "0198e1ff-3a56-7292-9d8b-4a87ffca168f",
+    "split": "dev",
+    "labels": {
+      "safety": true,
+      "accuracy": false,
+      "toxicity": false
+    }
+  },
+  {
+    "id": "0198e229-93d5-7151-966e-34a84e19d91a",
+    "labels": {
+      "safety": false,
+      "accuracy": true,
+      "toxicity": true
+    }
+  },
+  {
+    "id": "0198e22b-1716-7b62-a6cf-596e5ae3823c",
+    "split": "test",
+    "labels": {
+      "safety": true,
+      "accuracy": true,
+      "toxicity": false
+    }
+  },
+  {
+    "id": "0198e22d-ecb7-7011-bf0a-c5cb5c77fba2",
+    "labels": {
+      "safety": false,
+      "accuracy": false,
+      "toxicity": true
+    }
+  }
+]

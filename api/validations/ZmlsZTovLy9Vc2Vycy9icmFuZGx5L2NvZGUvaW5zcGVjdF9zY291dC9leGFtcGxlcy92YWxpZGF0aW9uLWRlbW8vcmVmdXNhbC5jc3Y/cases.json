@@ -1,0 +1,83 @@
+[
+  {
+    "id": "7iEWnFUf74wfemjRYpGJ9h",
+    "target": true
+  },
+  {
+    "id": "GQ6H8smcJvL4bbvywBYBkT",
+    "target": true
+  },
+  {
+    "id": "VPqNsn8DH3dVAS3ce52C5P",
+    "target": true
+  },
+  {
+    "id": "bHkGQzTudj8pJceeJaJiqj",
+    "target": true
+  },
+  {
+    "id": "kwdhBbmTzuLG9cadLqREYS",
+    "target": false
+  },
+  {
+    "id": "2NoS8upgn3fEKn5rvRC9hp",
+    "target": true
+  },
+  {
+    "id": "2b7xWg9iDBGigAt9osMPG8",
+    "target": false
+  },
+  {
+    "id": "33gheqsgmmMLXAHRt3jBqY",
+    "target": false
+  },
+  {
+    "id": "4TYKWKQzGCLywUjN4Nb6Cw",
+    "target": false
+  },
+  {
+    "id": "4agCPQTzJsuhefUw67uDjh",
+    "target": false
+  },
+  {
+    "id": "4jQwTMZSyGZMvfBMGj5SBi",
+    "target": false
+  },
+  {
+    "id": "58Tmgbykom8G48CxJgYRdq",
+    "target": false
+  },
+  {
+    "id": "6ma6BrDWGQxKmuAb3rYN7L",
+    "target": false
+  },
+  {
+    "id": "75BxgbpvW4aUiujPGjwThf",
+    "target": false
+  },
+  {
+    "id": "7HRFPqYjeAjKssjiQuRa9W",
+    "target": false
+  },
+  {
+    "id": "7UHKFHp38ujSDeP443uCin",
+    "target": false
+  },
+  {
+    "id": "7ukAnKVG2kjy3iQkxk4PdU",
+    "target": false
+  },
+  {
+    "id": "8DzFVEeDdgXWr4wSv3o5qh",
+    "target": false
+  },
+  {
+    "id": "3t2pHknZ8HbgFNi4bAnJMM",
+    "target": "stop",
+    "predicate": "icontains"
+  },
+  {
+    "id": "DrBupuwbxtGY4Tgm7K48CV",
+    "target": true
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "complete": true,
+  "spec": {
+    "scan_id": "n6YnW4uTPgkUKK738YD3TV",
+    "scan_name": "inspect_scout",
+    "timestamp": "2026-03-27T14:49:56.724547-04:00",
+    "model": {
+      "model": "anthropic/claude-haiku-4-5-20251001",
+      "config": {
+        "max_connections": 25
+      },
+      "args": {}
+    },
+    "revision": {
+      "type": "git",
+      "origin": "git@github.com:meridianlabs-ai/inspect_scout.git",
+      "version": "0.4.23-dev.7+gb633b6b1.dirty",
+      "commit": "b633b6b1"
+    },
+    "packages": {
+      "inspect_ai": "0.3.200",
+      "inspect_scout": "0.4.23.dev5"
+    },
+    "options": {
+      "max_transcripts": 25
+    },
+    "transcripts": {
+      "type": "database",
+      "location": "./transcripts",
+      "filter": [],
+      "transcript_ids": {
+        "815d2495-89c4-4543-abfd-05a945e6a9f5": "transcripts_20260323T185239_f459f37f.parquet",
+        "6e3561cb-6480-444d-927f-c2879cc113d7": "transcripts_20260323T185239_f459f37f.parquet",
+        "51628f90-7e6e-4986-a5db-daf5a94e4e26": "transcripts_20260323T185239_f459f37f.parquet"
+      },
+      "count": 0
+    },
+    "scanners": {
+      "refusal_classifier": {
+        "name": "refusal_classifier",
+        "version": 0,
+        "file": "examples/docs/refusal_classifier.py",
+        "params": {}
+      }
+    }
+  },
+  "location": "/Users/brandly/code/inspect_scout/scans/scan_id=n6YnW4uTPgkUKK738YD3TV",
+  "summary": {
+    "complete": true,
+    "scanners": {
+      "refusal_classifier": {
+        "scans": 3,
+        "results": 0,
+        "errors": 0,
+        "tokens": 49025,
+        "model_usage": {
+          "anthropic/claude-haiku-4-5-20251001": {
+            "input_tokens": 66,
+            "output_tokens": 1226,
+            "total_tokens": 49025,
+            "input_tokens_cache_write": 47733,
+            "input_tokens_cache_read": 0,
+            "reasoning_tokens": 0
+          }
+        }
+      }
+    }
+  },
+  "errors": [],
+  "scanners": null
+}

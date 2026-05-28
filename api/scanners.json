@@ -1,0 +1,427 @@
+{
+  "items": [
+    {
+      "name": "inspect_scout/grep_scanner",
+      "version": 0,
+      "description": "Pattern-based transcript scanner.",
+      "params": [
+        {
+          "name": "pattern",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "required": true,
+          "default": null
+        },
+        {
+          "name": "regex",
+          "schema": {
+            "type": "boolean"
+          },
+          "required": false,
+          "default": false
+        },
+        {
+          "name": "ignore_case",
+          "schema": {
+            "type": "boolean"
+          },
+          "required": false,
+          "default": true
+        },
+        {
+          "name": "word_boundary",
+          "schema": {
+            "type": "boolean"
+          },
+          "required": false,
+          "default": false
+        },
+        {
+          "name": "name",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        }
+      ]
+    },
+    {
+      "name": "inspect_scout/llm_scanner",
+      "version": 0,
+      "description": "Create a scanner that uses an LLM to scan transcripts.",
+      "params": [
+        {
+          "name": "question",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {},
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "answer",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "boolean",
+                  "numeric",
+                  "string"
+                ]
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              {},
+              {}
+            ]
+          },
+          "required": true,
+          "default": null
+        },
+        {
+          "name": "value_to_float",
+          "schema": {
+            "anyOf": [
+              {},
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "template",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "template_variables",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": {}
+              },
+              {},
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "preprocessor",
+          "schema": {
+            "anyOf": [
+              {},
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "model",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {},
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "model_role",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "cache",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "expiry": {
+                    "default": "1W",
+                    "anyOf": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "per_epoch": {
+                    "type": "boolean",
+                    "default": true
+                  },
+                  "scopes": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "retry_refusals",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          "required": false,
+          "default": 3
+        },
+        {
+          "name": "name",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "content",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "messages": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "enum": [
+                          "all"
+                        ]
+                      },
+                      {},
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "events": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "enum": [
+                          "all"
+                        ]
+                      },
+                      {},
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "timeline": {
+                    "anyOf": [
+                      {
+                        "type": "boolean",
+                        "enum": [
+                          true
+                        ]
+                      },
+                      {
+                        "type": "string",
+                        "enum": [
+                          "all"
+                        ]
+                      },
+                      {},
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "context_window",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "compaction",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "all",
+                  "last"
+                ]
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          },
+          "required": false,
+          "default": "all"
+        },
+        {
+          "name": "depth",
+          "schema": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        },
+        {
+          "name": "reducer",
+          "schema": {
+            "anyOf": [
+              {},
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "required": false,
+          "default": null
+        }
+      ]
+    }
+  ]
+}

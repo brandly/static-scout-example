@@ -1,0 +1,41 @@
+{
+  "transcript_id": "T25NBfwGVQJAL2dSMFhug6",
+  "source_type": "eval_log",
+  "source_id": "QQkS95WQYAbqxA4TP6YbxV",
+  "source_uri": "/Users/brandly/code/inspect_scout/logs/2026-05-04T19-22-49-00-00_task_dNaUzmwzmWb6Sb5dBgqCB3.eval",
+  "date": "2026-05-04 19:22:49+00:00",
+  "task_set": "task",
+  "task_id": "1",
+  "task_repeat": 1,
+  "agent": "generate",
+  "agent_args": {
+    "tool_calls": "loop",
+    "kwargs": {}
+  },
+  "model": "mockllm/model",
+  "model_options": {},
+  "score": null,
+  "success": false,
+  "message_count": 2,
+  "total_time": 0.004,
+  "total_tokens": 34,
+  "error": "",
+  "limit": "",
+  "metadata": {
+    "sample_id": "T25NBfwGVQJAL2dSMFhug6",
+    "eval_id": "QQkS95WQYAbqxA4TP6YbxV",
+    "log": "/Users/brandly/code/inspect_scout/logs/2026-05-04T19-22-49-00-00_task_dNaUzmwzmWb6Sb5dBgqCB3.eval",
+    "eval_status": "success",
+    "eval_tags": "",
+    "eval_metadata": "{}",
+    "task_args": "{}",
+    "generate_config": "{}",
+    "model_roles": "{}",
+    "id": "1",
+    "epoch": 1,
+    "input": "user:\nprompt\n",
+    "target": "",
+    "sample_metadata": "{}",
+    "working_time": 0.003
+  }
+}

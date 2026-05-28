@@ -1,0 +1,13 @@
+{
+  "transcripts": {
+    "dir": "file:///Users/brandly/code/inspect_scout/logs",
+    "source": "project"
+  },
+  "filter": [],
+  "scans": {
+    "dir": "file:///Users/brandly/code/inspect_scout/scans",
+    "source": "project"
+  },
+  "home_dir": "file:///Users/brandly",
+  "project_dir": "file:///Users/brandly/code/inspect_scout"
+}
