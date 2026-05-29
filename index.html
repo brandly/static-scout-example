@@ -6,11 +6,12 @@
     <title>Inspect Scout</title>
     <link rel="icon" type="image/svg+xml" href="./assets/favicon-CLlGywfF.svg" />
     <script>"use strict";(()=>{var l="inspect-scout-user-settings",d=e=>e==="system"||e==="light"||e==="dark",n=e=>{try{let t=e.getItem(l);if(!t)return"system";let r=JSON.parse(t);if(r&&typeof r=="object"&&"state"in r){let s=r.state;if(s&&typeof s=="object"&&"themePreference"in s){let a=s.themePreference;if(d(a))return a}}return"system"}catch{return"system"}},i=e=>e==="dark"||e==="vscode-dark",c=e=>{if(e.isVscodeWebview)return e.explicitParam?{kind:"apply",theme:e.explicitParam,isDark:i(e.explicitParam),toggleBodyClass:!1}:{kind:"skip"};let t;return e.preference!=="system"?t=e.preference:e.explicitParam?t=e.explicitParam:t=e.prefersDark?"dark":"light",{kind:"apply",theme:t,isDark:i(t),toggleBodyClass:!0}};var o=()=>{let e=new URLSearchParams(window.location.search),t=c({preference:n(localStorage),explicitParam:e.get("inspectViewThemeCategory"),isVscodeWebview:typeof window.acquireVsCodeApi=="function",prefersDark:window.matchMedia("(prefers-color-scheme: dark)").matches});t.kind!=="skip"&&(document.documentElement.setAttribute("data-text-highlight",t.theme),document.documentElement.setAttribute("data-bs-theme",t.isDark?"dark":"light"),t.toggleBodyClass&&document.body?.classList.toggle("vscode-dark",t.isDark))};window.__SCOUT_APPLY_BROWSER_THEME__=o;o();window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",o);})();</script>
-    <script type="module" crossorigin src="./assets/index--KPTbK39.js"></script>
+    <script type="module" crossorigin src="./assets/index-DHgvBl3A.js"></script>
     <link rel="modulepreload" crossorigin href="./assets/jsx-runtime-DAYmCNe8.js">
     <link rel="modulepreload" crossorigin href="./assets/chunk-DfAF0w94-2nzGDkt8.js">
     <link rel="stylesheet" crossorigin href="./assets/index-GzwI22OP.css">
   <script id="scout_context" type="application/json">{"bundle": true, "bundleBaseUrl": "./api", "transcriptsDir": "./logs", "scansDir": "./scans"}</script>
+<script>window.__SCOUT_STATIC_BUNDLE__=true;</script>
 </head>
 
   <body style="min-width: 450px">
