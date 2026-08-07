@@ -1,0 +1,13 @@
+{
+  "transcripts": {
+    "dir": "file:///Users/brandly/code/static-scout-deploy/transcripts",
+    "source": "cli"
+  },
+  "filter": [],
+  "scans": {
+    "dir": "file:///Users/brandly/code/static-scout-deploy/scans",
+    "source": "cli"
+  },
+  "home_dir": "file:///Users/brandly",
+  "project_dir": "file:///Users/brandly/code/static-scout-deploy"
+}

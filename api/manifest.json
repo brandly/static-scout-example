@@ -1,0 +1,41 @@
+{
+  "format": "scout-static-bundle",
+  "version": 1,
+  "generated_at": "2026-08-07T17:22:37.366235+00:00",
+  "transcripts": {
+    "dir": "./transcripts",
+    "id_column": "transcript_id",
+    "row_count": 1458,
+    "default_order": {
+      "column": "date",
+      "direction": "DESC"
+    },
+    "shards": [
+      {
+        "path": "transcripts/catalog/shard-0000.json.zst",
+        "row_count": 1458,
+        "min": "2025-06-28 11:25:41+00:00",
+        "max": "2025-08-14 20:02:27+00:00"
+      }
+    ],
+    "column_values": "transcripts/columns.json"
+  },
+  "scans": {
+    "dir": "./scans",
+    "id_column": "scan_id",
+    "row_count": 5,
+    "default_order": {
+      "column": "timestamp",
+      "direction": "DESC"
+    },
+    "shards": [
+      {
+        "path": "scans/catalog/shard-0000.json.zst",
+        "row_count": 5,
+        "min": "2026-06-26T12:18:59.183213-04:00",
+        "max": "2026-06-26T12:19:40.355802-04:00"
+      }
+    ],
+    "column_values": "scans/columns.json"
+  }
+}

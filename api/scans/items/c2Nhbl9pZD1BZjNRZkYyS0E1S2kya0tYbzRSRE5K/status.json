@@ -1,0 +1,159 @@
+{
+  "complete": true,
+  "spec": {
+    "scan_id": "Af3QfF2KA5Ki2kKXo4RDNJ",
+    "scan_name": "static-scout-deploy",
+    "timestamp": "2026-06-26T12:18:59.183213-04:00",
+    "model": {
+      "model": "anthropic/claude-haiku-4-5",
+      "config": {
+        "max_connections": 25,
+        "cache": {
+          "expiry": "7D",
+          "per_epoch": true,
+          "scopes": {}
+        }
+      },
+      "args": {}
+    },
+    "revision": {
+      "type": "git",
+      "origin": "",
+      "version": "0.0.0-dev.0+unknown",
+      "commit": "b133cc1"
+    },
+    "packages": {
+      "inspect_ai": "0.3.239.dev212+ge8c49ef2e",
+      "inspect_scout": "0.4.42.dev38"
+    },
+    "options": {
+      "max_transcripts": 25,
+      "limit": 25
+    },
+    "transcripts": {
+      "type": "eval_log",
+      "filter": [],
+      "transcript_ids": {
+        "KwtrE8iFjpFQC8WyWbE7fp": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "VcQw2M4mRW2L89ovLnn3TA": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "4WRj34jQv2bXALiMy8Zjfo": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "cpcd6ZorwkbxFYRqdnjnih": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "mKEE2jgHdsYjTqyFhvAZtq": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "99CNopRrZbXVbKikVzyvXM": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "3mH5xjMuuJTh5m5aSh7mcU": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "dFNPoEmmjY5tuXciCJRc3R": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "ZNaJNJ9opjQ5BsL4mnERvJ": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "Ye8m2ESe8DZGUiSM4em6TB": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "JDyk6LZXZnyCyxipqWsEFQ": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "S6SSYyLig4YDN4naCiapjt": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "A2qbJXFwMcHEsSBV9DEvSR": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "59cHE6S3bXnWpzYMwdjeAw": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "Zm7ar8hZbi6e83wrxKoraj": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "XVKwKcV5r22Qgto6pTFV6B": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "oBoaPXrLhnjtRGfTJC4WFP": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "kjLEdoTQqLQ9D9pTKNvQvw": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "H2b9kDCzZoLwTaukzuVuiE": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "cK2qjpGAiqBWxzUFpEwXN8": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "GZMGXByFVbHScNvxLjf7N6": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "jBA5MTNGuwUzut4cDZ6HG8": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "jwAmyAeoya3DLusxYeUSqX": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "ZxRigB7NfhuuzU6KFsZZpx": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval",
+        "Wu6NeEKPaPehAvQNfuLXnF": "/Users/brandly/code/static-scout-deploy/transcripts/agi-lsat-ar/2025-07-16T07-40-28-04-00_agie-lsat-lr_6MPyx6SMm95Ln3LwGBSK8G.eval"
+      },
+      "count": 0
+    },
+    "scanners": {
+      "reward_hacking": {
+        "name": "reward_hacking",
+        "version": 0,
+        "file": "scanners/scanner.py",
+        "params": {}
+      },
+      "efficiency": {
+        "name": "efficiency",
+        "version": 0,
+        "file": "scanners/scanner.py",
+        "params": {}
+      },
+      "deception": {
+        "name": "deception",
+        "version": 0,
+        "file": "scanners/deception.py",
+        "params": {}
+      },
+      "tool_errors": {
+        "name": "tool_errors",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      },
+      "runtime_errors": {
+        "name": "runtime_errors",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      },
+      "error_keywords": {
+        "name": "error_keywords",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      }
+    }
+  },
+  "location": "/Users/brandly/code/static-scout-deploy/scans/scan_id=Af3QfF2KA5Ki2kKXo4RDNJ",
+  "summary": {
+    "complete": true,
+    "scanners": {
+      "reward_hacking": {
+        "scans": 25,
+        "results": 8,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "efficiency": {
+        "scans": 25,
+        "results": 25,
+        "errors": 0,
+        "metrics": {
+          "efficiency": {
+            "mean": 6.8
+          }
+        },
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "deception": {
+        "scans": 25,
+        "results": 1,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "tool_errors": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "runtime_errors": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "error_keywords": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      }
+    }
+  },
+  "errors": [],
+  "scanners": null
+}

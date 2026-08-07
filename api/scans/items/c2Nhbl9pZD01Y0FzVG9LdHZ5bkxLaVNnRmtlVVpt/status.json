@@ -1,0 +1,159 @@
+{
+  "complete": true,
+  "spec": {
+    "scan_id": "5cAsToKtvynLKiSgFkeUZm",
+    "scan_name": "static-scout-deploy",
+    "timestamp": "2026-06-26T12:19:40.355802-04:00",
+    "model": {
+      "model": "anthropic/claude-haiku-4-5",
+      "config": {
+        "max_connections": 25,
+        "cache": {
+          "expiry": "7D",
+          "per_epoch": true,
+          "scopes": {}
+        }
+      },
+      "args": {}
+    },
+    "revision": {
+      "type": "git",
+      "origin": "",
+      "version": "0.0.0-dev.0+unknown",
+      "commit": "b133cc1"
+    },
+    "packages": {
+      "inspect_ai": "0.3.239.dev212+ge8c49ef2e",
+      "inspect_scout": "0.4.42.dev38"
+    },
+    "options": {
+      "max_transcripts": 25,
+      "limit": 25
+    },
+    "transcripts": {
+      "type": "eval_log",
+      "filter": [],
+      "transcript_ids": {
+        "UTRGtpQVLnoL6vUTPbsbTE": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "fhdE8FAbGnSBMC5JBP5jR3": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "KeXts5qiCSwf3V7aJYdBqv": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "MEiT6HEGyxN5CVYbus3WJm": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "aG52Q95BQU2j2BUujMU6oK": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "3hFQ3qXWcMQquxwMNQMYd7": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "ZtZG5UuvQSDKgbYpsCKDY7": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "o8o7aLcUqrnTZCEokfmsv7": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "QeyPUZucnTs4cewM8kSnpZ": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "bFBHXY6xVraGYvsKPHHazN": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "nAMLWmkDwR8KknHyQv7cT3": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "67G5yKfZBmv5hZWS8Xw9y7": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "QQYmfcfkRG8iwJmyxgS2wz": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "9EK9vg4QTdpYwYzH6xo9aS": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "ZrbzEQu4McnhrE2X2JaXFU": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "naZw9PRrxkjvHeCmivSWqV": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "JhThFFLMbykd7H2rCNe4pv": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "2ZFcK8r4QkB2ZiyHCBcni3": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "nsNFiXzsDXqw3TThHmHBbt": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "PELFoq4TwcKawvLXcmzZEb": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "BvpsgqwW9c4gS67nfveMVa": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "Kmy7SaHqVqTn5B34W5K3dS": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "9qy8rAsF2M6DBSKLdRZpPe": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "aKPRAfrPDWbvWfyHPS78qD": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval",
+        "Fa2Rpn9WaC3gvSgb7c3rzi": "/Users/brandly/code/static-scout-deploy/transcripts/writing_bench/2025-08-14T16-02-27-04-00_writingbench_PLwk8DxgdKPtZ9qVH2apWr.eval"
+      },
+      "count": 0
+    },
+    "scanners": {
+      "reward_hacking": {
+        "name": "reward_hacking",
+        "version": 0,
+        "file": "scanners/scanner.py",
+        "params": {}
+      },
+      "efficiency": {
+        "name": "efficiency",
+        "version": 0,
+        "file": "scanners/scanner.py",
+        "params": {}
+      },
+      "deception": {
+        "name": "deception",
+        "version": 0,
+        "file": "scanners/deception.py",
+        "params": {}
+      },
+      "tool_errors": {
+        "name": "tool_errors",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      },
+      "runtime_errors": {
+        "name": "runtime_errors",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      },
+      "error_keywords": {
+        "name": "error_keywords",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      }
+    }
+  },
+  "location": "/Users/brandly/code/static-scout-deploy/scans/scan_id=5cAsToKtvynLKiSgFkeUZm",
+  "summary": {
+    "complete": true,
+    "scanners": {
+      "reward_hacking": {
+        "scans": 25,
+        "results": 2,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "efficiency": {
+        "scans": 25,
+        "results": 25,
+        "errors": 0,
+        "metrics": {
+          "efficiency": {
+            "mean": 8.24
+          }
+        },
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "deception": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "tool_errors": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "runtime_errors": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "error_keywords": {
+        "scans": 25,
+        "results": 9,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      }
+    }
+  },
+  "errors": [],
+  "scanners": null
+}

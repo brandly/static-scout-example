@@ -1,0 +1,75 @@
+{
+  "scan_id": [
+    "5cAsToKtvynLKiSgFkeUZm",
+    "Af3QfF2KA5Ki2kKXo4RDNJ",
+    "E4msCY7RQskBEQWKaLcCYR",
+    "FeBncSrWjJG9XSHXd6AJs5",
+    "m5v6xnXQdQtsSPzBvsjrFp"
+  ],
+  "scan_name": [
+    "static-scout-deploy"
+  ],
+  "scan_file": [
+    null
+  ],
+  "timestamp": [
+    "2026-06-26T12:18:59.183213-04:00",
+    "2026-06-26T12:19:06.425482-04:00",
+    "2026-06-26T12:19:13.466663-04:00",
+    "2026-06-26T12:19:23.460970-04:00",
+    "2026-06-26T12:19:40.355802-04:00"
+  ],
+  "metadata": [
+    null
+  ],
+  "scan_args": [
+    null
+  ],
+  "location": [
+    "/Users/brandly/code/static-scout-deploy/scans/scan_id=5cAsToKtvynLKiSgFkeUZm",
+    "/Users/brandly/code/static-scout-deploy/scans/scan_id=Af3QfF2KA5Ki2kKXo4RDNJ",
+    "/Users/brandly/code/static-scout-deploy/scans/scan_id=E4msCY7RQskBEQWKaLcCYR",
+    "/Users/brandly/code/static-scout-deploy/scans/scan_id=FeBncSrWjJG9XSHXd6AJs5",
+    "/Users/brandly/code/static-scout-deploy/scans/scan_id=m5v6xnXQdQtsSPzBvsjrFp"
+  ],
+  "status": [
+    "complete"
+  ],
+  "scanners": [
+    "reward_hacking,efficiency,deception,tool_errors,runtime_errors,error_keywords"
+  ],
+  "model": [
+    "anthropic/claude-haiku-4-5"
+  ],
+  "tags": [
+    ""
+  ],
+  "revision_version": [
+    "0.0.0-dev.0+unknown"
+  ],
+  "revision_commit": [
+    "b133cc1"
+  ],
+  "revision_origin": [
+    ""
+  ],
+  "total_results": [
+    34,
+    36,
+    39,
+    56,
+    66
+  ],
+  "total_errors": [
+    0
+  ],
+  "total_tokens": [
+    0
+  ],
+  "active_completion_pct": [
+    null
+  ],
+  "transcript_count": [
+    25
+  ]
+}

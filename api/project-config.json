@@ -1,0 +1,22 @@
+{
+  "name": null,
+  "transcripts": "./transcripts",
+  "filter": [],
+  "scanners": null,
+  "worklist": null,
+  "validation": null,
+  "scans": "./scans",
+  "model": null,
+  "model_base_url": null,
+  "model_args": null,
+  "generate_config": null,
+  "model_roles": null,
+  "max_transcripts": null,
+  "max_processes": null,
+  "limit": null,
+  "shuffle": null,
+  "tags": null,
+  "metadata": null,
+  "log_level": null,
+  "results": null
+}

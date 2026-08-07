@@ -1,0 +1,159 @@
+{
+  "complete": true,
+  "spec": {
+    "scan_id": "E4msCY7RQskBEQWKaLcCYR",
+    "scan_name": "static-scout-deploy",
+    "timestamp": "2026-06-26T12:19:06.425482-04:00",
+    "model": {
+      "model": "anthropic/claude-haiku-4-5",
+      "config": {
+        "max_connections": 25,
+        "cache": {
+          "expiry": "7D",
+          "per_epoch": true,
+          "scopes": {}
+        }
+      },
+      "args": {}
+    },
+    "revision": {
+      "type": "git",
+      "origin": "",
+      "version": "0.0.0-dev.0+unknown",
+      "commit": "b133cc1"
+    },
+    "packages": {
+      "inspect_ai": "0.3.239.dev212+ge8c49ef2e",
+      "inspect_scout": "0.4.42.dev38"
+    },
+    "options": {
+      "max_transcripts": 25,
+      "limit": 25
+    },
+    "transcripts": {
+      "type": "eval_log",
+      "filter": [],
+      "transcript_ids": {
+        "YKBCdRX8xMyUFQ2JeLrAgJ": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "bGFQiZe9bXaJ7bKVhAkej3": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "JrYeXTqYKaBv9UaZ7e5RsE": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "EP6P8UuGQgCqEiWAxoquUa": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "LeSBajhM4ooQz747pQjDnv": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "GpdqKuytxxsrWrLhhjFe6t": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "LtpL74ecTYbtg9SgNyA7CB": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "Znf39XUoKPoCSFxdFH8Cja": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "bUVmCKNnBqqxW3dsj3eWA2": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "jNCFzx735M2mpsi6ucme8s": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "brp4v2i2wvVsHGzfSqCR6b": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "ED4HiytEvxioKm6B6R8VME": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "XCL9pjfjgNtNehoKkVVwu3": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "JkPhjKi9aUssCzVtVvwppm": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "DtXTNGVVVoMfErofYhW9MG": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "i7iDPuLiDvmPK3Fm9CsYvd": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "5WGcSfjhCcvJHSAwwg9rix": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "XVaAMipEgsfcm8npMs6zfq": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "SiVUZfCFQgQ6o9gqWTjtWE": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "BwfPrxfrWawoAzGLMdAZyy": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "3GX8kRGrCD9Vir48bFmagS": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "PmhGYBSPWWoCxXNiCvG7Ms": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "eX3e3CiJDnkRut54sAcVn4": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "kEcDMXB94jikF8G9XYEGV2": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval",
+        "5dx7RsWwnhV42s9JiosCuh": "/Users/brandly/code/static-scout-deploy/transcripts/aime/2025-06-28T11-25-41+00-00_aime2024_W3ufF4y27CjW74JSNazRZQ.eval"
+      },
+      "count": 0
+    },
+    "scanners": {
+      "reward_hacking": {
+        "name": "reward_hacking",
+        "version": 0,
+        "file": "scanners/scanner.py",
+        "params": {}
+      },
+      "efficiency": {
+        "name": "efficiency",
+        "version": 0,
+        "file": "scanners/scanner.py",
+        "params": {}
+      },
+      "deception": {
+        "name": "deception",
+        "version": 0,
+        "file": "scanners/deception.py",
+        "params": {}
+      },
+      "tool_errors": {
+        "name": "tool_errors",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      },
+      "runtime_errors": {
+        "name": "runtime_errors",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      },
+      "error_keywords": {
+        "name": "error_keywords",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      }
+    }
+  },
+  "location": "/Users/brandly/code/static-scout-deploy/scans/scan_id=E4msCY7RQskBEQWKaLcCYR",
+  "summary": {
+    "complete": true,
+    "scanners": {
+      "reward_hacking": {
+        "scans": 25,
+        "results": 10,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "efficiency": {
+        "scans": 25,
+        "results": 25,
+        "errors": 0,
+        "metrics": {
+          "efficiency": {
+            "mean": 6.72
+          }
+        },
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "deception": {
+        "scans": 25,
+        "results": 4,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "tool_errors": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "runtime_errors": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "error_keywords": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      }
+    }
+  },
+  "errors": [],
+  "scanners": null
+}

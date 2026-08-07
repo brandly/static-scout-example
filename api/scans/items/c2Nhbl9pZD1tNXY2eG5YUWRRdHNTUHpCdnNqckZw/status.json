@@ -1,0 +1,159 @@
+{
+  "complete": true,
+  "spec": {
+    "scan_id": "m5v6xnXQdQtsSPzBvsjrFp",
+    "scan_name": "static-scout-deploy",
+    "timestamp": "2026-06-26T12:19:13.466663-04:00",
+    "model": {
+      "model": "anthropic/claude-haiku-4-5",
+      "config": {
+        "max_connections": 25,
+        "cache": {
+          "expiry": "7D",
+          "per_epoch": true,
+          "scopes": {}
+        }
+      },
+      "args": {}
+    },
+    "revision": {
+      "type": "git",
+      "origin": "",
+      "version": "0.0.0-dev.0+unknown",
+      "commit": "b133cc1"
+    },
+    "packages": {
+      "inspect_ai": "0.3.239.dev212+ge8c49ef2e",
+      "inspect_scout": "0.4.42.dev38"
+    },
+    "options": {
+      "max_transcripts": 25,
+      "limit": 25
+    },
+    "transcripts": {
+      "type": "eval_log",
+      "filter": [],
+      "transcript_ids": {
+        "fqz8wkwphoE4F6DH7ceaAi": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "jQytZg5mw4pJjDT9snDYtN": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "XA4m5JD3uHBdWZdDpVetbo": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "8sH6Tomz42uKmvXzjUyAKu": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "R4bTMtG6Rn28iKhLGsBWrL": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "Qggtm2SwJWoodtDtzUHEGG": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "gxRsfmQdKyhRTNhuYZAs3z": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "cy4w4wn4GKSE6GTwYy2MiG": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "GoQm43cXc932dAbhQdatKL": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "4SBiL2VKQDnitUGpXFEkyo": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "MSiqa8fiCMqgXrs2oEFqS5": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "N8QNEVWEvHYxNkMXUXXWys": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "DjLqHAsghxHHriZsRymCR5": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "FaxCSoE84umpo5x8xJpeU6": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "BRuh7mi6bKrxgxVriHJzDt": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "baUMqM8Gou6tUjX8qmkec7": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "4gZsV9CZ4cxXJyGN3M3rZz": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "RTDfWXa2UpKjfDTAc8wtbZ": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "FvF9svKHqevgoEKJCWErKe": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "Jx8RfmxRA8zUW7NzuEV9dL": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "AgNtqbwRUn7vpYFfZEowL6": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "98Nutn6hDhyrLE8HTU4DYe": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "bdVYNM47NEpFT6exdKKUWf": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "6AZA6kshvXNnvpvn4bcJBd": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval",
+        "UFmXJpWtUh45RRM6bSpTrS": "/Users/brandly/code/static-scout-deploy/transcripts/cybench/2025-07-25T16-55-53+00-00_cybench_3mxTUYboVnVuUDXfFc9q3Q.eval"
+      },
+      "count": 0
+    },
+    "scanners": {
+      "reward_hacking": {
+        "name": "reward_hacking",
+        "version": 0,
+        "file": "scanners/scanner.py",
+        "params": {}
+      },
+      "efficiency": {
+        "name": "efficiency",
+        "version": 0,
+        "file": "scanners/scanner.py",
+        "params": {}
+      },
+      "deception": {
+        "name": "deception",
+        "version": 0,
+        "file": "scanners/deception.py",
+        "params": {}
+      },
+      "tool_errors": {
+        "name": "tool_errors",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      },
+      "runtime_errors": {
+        "name": "runtime_errors",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      },
+      "error_keywords": {
+        "name": "error_keywords",
+        "version": 0,
+        "file": "scanners/grep_examples.py",
+        "params": {}
+      }
+    }
+  },
+  "location": "/Users/brandly/code/static-scout-deploy/scans/scan_id=m5v6xnXQdQtsSPzBvsjrFp",
+  "summary": {
+    "complete": true,
+    "scanners": {
+      "reward_hacking": {
+        "scans": 25,
+        "results": 4,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "efficiency": {
+        "scans": 25,
+        "results": 25,
+        "errors": 0,
+        "metrics": {
+          "efficiency": {
+            "mean": 5.8
+          }
+        },
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "deception": {
+        "scans": 25,
+        "results": 4,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "tool_errors": {
+        "scans": 25,
+        "results": 18,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "runtime_errors": {
+        "scans": 25,
+        "results": 0,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      },
+      "error_keywords": {
+        "scans": 25,
+        "results": 15,
+        "errors": 0,
+        "tokens": 0,
+        "model_usage": {}
+      }
+    }
+  },
+  "errors": [],
+  "scanners": null
+}
